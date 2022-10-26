@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @CYGNUS-YT
+- 👋 Hi, I’m @Amalekh-Biju
 - 👀 I’m interested in Ethical Hacking Cyber Security and Software Devolopment
 - 🌱 I’m currently learning in High School
 - 💞️ I’m looking to collaborate on ...
