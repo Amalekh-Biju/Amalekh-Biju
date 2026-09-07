@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f6f8fa"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969da"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#db61a2"/>
+    </linearGradient>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="roundedRect"><rect width="900" height="400" rx="16"/></clipPath>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900');
+      .font-inter { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+      .cursor { animation: blink 1.2s step-end infinite; }
+      @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+      .float { animation: float 6s ease-in-out infinite; }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+      .pulse { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:0.8} }
+      .orbit { animation: orbit 20s linear infinite; transform-origin: 750px 200px; }
+      @keyframes orbit { 100%{transform:rotate(360deg)} }
+      .orbit2 { animation: orbit2 30s linear infinite reverse; transform-origin: 750px 200px; }
+      @keyframes orbit2 { 100%{transform:rotate(360deg)} }
+    </style>
+  </defs>
+  <g clip-path="url(#roundedRect)">
+    <rect width="900" height="400" fill="url(#bg)"/>
+    <g opacity="0.04" stroke="#1f2328" stroke-width="1">
+      <line x1="0" y1="0" x2="0" y2="400"/><line x1="50" y1="0" x2="50" y2="400"/>
+      <line x1="100" y1="0" x2="100" y2="400"/><line x1="150" y1="0" x2="150" y2="400"/>
+      <line x1="200" y1="0" x2="200" y2="400"/><line x1="250" y1="0" x2="250" y2="400"/>
+      <line x1="300" y1="0" x2="300" y2="400"/><line x1="350" y1="0" x2="350" y2="400"/>
+      <line x1="400" y1="0" x2="400" y2="400"/><line x1="450" y1="0" x2="450" y2="400"/>
+      <line x1="500" y1="0" x2="500" y2="400"/><line x1="550" y1="0" x2="550" y2="400"/>
+      <line x1="600" y1="0" x2="600" y2="400"/><line x1="650" y1="0" x2="650" y2="400"/>
+      <line x1="700" y1="0" x2="700" y2="400"/><line x1="750" y1="0" x2="750" y2="400"/>
+      <line x1="800" y1="0" x2="800" y2="400"/><line x1="850" y1="0" x2="850" y2="400"/>
+      <line x1="0" y1="50" x2="900" y2="50"/><line x1="0" y1="100" x2="900" y2="100"/>
+      <line x1="0" y1="150" x2="900" y2="150"/><line x1="0" y1="200" x2="900" y2="200"/>
+      <line x1="0" y1="250" x2="900" y2="250"/><line x1="0" y1="300" x2="900" y2="300"/>
+      <line x1="0" y1="350" x2="900" y2="350"/>
+    </g>
+    <g class="orbit"><circle cx="750" cy="200" r="120" fill="none" stroke="url(#accent)" stroke-width="0.5" opacity="0.2" stroke-dasharray="8,12"/></g>
+    <g class="orbit2"><circle cx="750" cy="200" r="80" fill="none" stroke="url(#accent2)" stroke-width="0.5" opacity="0.15" stroke-dasharray="5,15"/></g>
+    <circle cx="680" cy="140" r="3" fill="#0969da" opacity="0.4" class="float"/>
+    <circle cx="820" cy="260" r="2" fill="#7c3aed" opacity="0.3" class="float" style="animation-delay:-2s"/>
+    <circle cx="760" cy="100" r="2" fill="#db61a2" opacity="0.25" class="float" style="animation-delay:-4s"/>
+    <circle cx="700" cy="300" r="2.5" fill="#0969da" opacity="0.2" class="float" style="animation-delay:-1s"/>
+    <g transform="translate(750,200)" class="float" style="animation-delay:-1.5s">
+      <path d="M 0 -45 L 35 -28 L 35 10 C 35 35 18 50 0 58 C -18 50 -35 35 -35 10 L -35 -28 Z" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.15"/>
+      <path d="M 0 -30 L 22 -18 L 22 6 C 22 22 12 32 0 38 C -12 32 -22 22 -22 6 L -22 -18 Z" fill="none" stroke="url(#accent)" stroke-width="1" opacity="0.1"/>
+      <rect x="-8" y="-6" width="16" height="14" rx="2" fill="none" stroke="#0969da" stroke-width="1.2" opacity="0.2"/>
+      <path d="M -5 -6 L -5 -12 C -5 -18 5 -18 5 -12 L 5 -6" fill="none" stroke="#0969da" stroke-width="1.2" opacity="0.2"/>
+      <circle cx="0" cy="2" r="2" fill="#0969da" opacity="0.25"/>
+    </g>
+    <circle cx="60" cy="70" r="4" fill="#0969da" filter="url(#softglow)" class="pulse"/>
+    <text x="75" y="75" class="font-inter" font-size="12" font-weight="500" fill="#656d76" letter-spacing="2">AVAILABLE FOR COLLABORATION</text>
+    <text x="60" y="140" class="font-inter" font-size="48" font-weight="900" fill="#1f2328">Amalekh Biju</text>
+    <rect x="60" y="158" width="120" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="60" y="195" class="font-inter" font-size="18" font-weight="600" fill="#0969da">Founder &amp; CEO</text>
+    <text x="205" y="195" class="font-inter" font-size="18" font-weight="400" fill="#656d76">at Arxec Systems LLP</text>
+    <text x="60" y="235" class="font-inter" font-size="14" font-weight="400" fill="#656d76">Cybersecurity Specialist &amp; Full-Stack Engineer</text>
+    <text x="60" y="258" class="font-inter" font-size="14" font-weight="400" fill="#656d76">building hardened distributed systems.</text>
+    <g transform="translate(60,295)">
+      <rect x="0" y="0" width="340" height="36" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <circle cx="16" cy="18" r="4" fill="#ff5f56"/><circle cx="30" cy="18" r="4" fill="#ffbd2e"/><circle cx="44" cy="18" r="4" fill="#27c93f"/>
+      <text x="62" y="22" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" font-size="12" font-weight="500" fill="#1a7f37">$</text>
+      <text x="75" y="22" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,monospace" font-size="12" font-weight="400" fill="#1f2328">arxec --deploy --secure</text>
+      <rect x="278" y="10" width="7" height="16" rx="1" fill="#1f2328" class="cursor"/>
+    </g>
+    <g transform="translate(60,355)">
+      <rect x="0" y="0" width="90" height="26" rx="13" fill="#ddf4ff" stroke="#54aeff" stroke-width="1"/>
+      <text x="45" y="17" class="font-inter" font-size="11" font-weight="500" fill="#0969da" text-anchor="middle">Security</text>
+      <rect x="100" y="0" width="98" height="26" rx="13" fill="#fbefff" stroke="#c297ff" stroke-width="1"/>
+      <text x="149" y="17" class="font-inter" font-size="11" font-weight="500" fill="#7c3aed" text-anchor="middle">Full-Stack</text>
+      <rect x="208" y="0" width="100" height="26" rx="13" fill="#ffeff7" stroke="#ff80c8" stroke-width="1"/>
+      <text x="258" y="17" class="font-inter" font-size="11" font-weight="500" fill="#bf3989" text-anchor="middle">Arch Linux</text>
+      <rect x="318" y="0" width="90" height="26" rx="13" fill="#fff8c5" stroke="#d4a72c" stroke-width="1"/>
+      <text x="363" y="17" class="font-inter" font-size="11" font-weight="500" fill="#9a6700" text-anchor="middle">DevOps</text>
+    </g>
+    <rect width="900" height="400" rx="16" fill="none" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
+  </g>
+</svg>
