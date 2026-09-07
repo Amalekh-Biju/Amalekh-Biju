@@ -86,7 +86,7 @@ I'm a Full-Stack Engineer and Cybersecurity Specialist who loves building secure
 Looking to collaborate on cybersecurity research, full-stack builds, or innovative hardware integrations? 
 
 <div align="center">
-  <a href="mailto:amalekh@arxec.systems"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:amalekh@ac-inc.in"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/amalekh-biju/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://amalekh.arxec.systems"><img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://amalekh.ac-inc.in"><img src="https://img.shields.io/badge/Portfolio-252525?style=for-the-badge&logo=mac-os&logoColor=white" alt="Portfolio" /></a>
 </div>
