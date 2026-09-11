@@ -11,9 +11,27 @@
   <a href="mailto:amalekh@arxec.systems"><img src="https://img.shields.io/badge/Email-amalekh@arxec.systems-000?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>
 </p>
 
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&pause=1000&color=00d4ff&center=true&vCenter=true&width=600&lines=Security+Researcher;Software+Engineer;Founder+%40+Arxec+Systems;Technical+Director+%40+MITS+Media" alt="Typing SVG" />
+  </a>
+</p>
+
 ---
 
-I run **[Arxec Systems LLP](https://amalekh.arxec.systems)**, a registered technology firm delivering offensive security assessments, hardened web architectures, and DevSecOps automation. Currently pursuing **B.Tech CSE (Cybersecurity)** at MITS, and serving as **Technical Director** for the MITS Media Club — managing institutional AV infrastructure, DMX 512 stage networks, and Dante audio distribution.
+### 👋 Hey, I'm Amalekh.
+
+I'm a security engineer and developer from India. I spend my time breaking into systems to understand how to build them better.
+
+Currently, I run **[Arxec Systems](https://amalekh.arxec.systems)**, where we focus on offensive security assessments, secure web architectures, and DevSecOps. My core stack revolves around Next.js, Docker, and Cloudflare, but I'm always exploring new ways to decouple architectures and build offline-first applications.
+
+Beyond the screen, I serve as the Technical Director for the MITS Media Club, where I manage live AV infrastructure, Dante audio routing, and DMX lighting for large-scale stage productions.
+
+**What I'm up to:**
+- 🛡️ Building hardened, zero-trust architectures at Arxec.
+- 🎓 Studying B.Tech CSE (Cybersecurity) at MITS.
+- 🎛️ Routing audio and lighting for live events.
+- ⚡ Tinkering with headless storefronts and local sync loops.
 
 ---
 
